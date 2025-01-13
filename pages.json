@@ -1,0 +1,160 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index"
+		},
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/index/components/bigScreen"
+		},
+		{
+			"path": "pages/equipment/index"
+		},
+		{
+			"path": "pages/home/index"
+		},
+		{
+			"path": "pages/ai/index"
+		},
+		{
+			"path": "pages/task/index"
+		},
+		{
+			"path": "pages/my/index"
+		},
+		{
+			"path": "pages/task/components/inspection/report"
+		},
+		{
+			"path": "pages/task/components/inspection/schedule"
+		},
+		{
+			"path": "pages/task/components/upKeep/report"
+		},
+		{
+			"path": "pages/task/components/upKeep/accept"
+		},
+		{
+			"path": "pages/task/components/repair/report"
+		},
+		{
+			"path": "pages/task/components/repair/distribution"
+		},
+		{
+			"path": "pages/task/components/repair/accept"
+		},
+		{
+			"path": "pages/task/components/repair/history"
+		},
+		{
+			"path": "pages/task/components/approve/accept"
+		},
+		{
+			"path": "pages/task/components/approve/history"
+		},
+		{
+			"path": "pages/task/components/accept/history"
+		},
+		{
+			"path": "pages/equipment/eqmonitor"
+		},
+		{
+			"path": "pages/equipment/eqList"
+		},
+		{
+			"path": "pages/equipment/eqDetail"
+		},
+		{
+			"path": "pages/equipment/components/breakdownReport"
+		},
+		{
+			"path": "pages/equipment/components/repairRecordList"
+		},
+		{
+			"path": "pages/equipment/components/repairDetail"
+		},
+		{
+			"path": "pages/equipment/components/inspectionRecordList"
+		},
+		{
+			"path": "pages/equipment/components/inspectionReport"
+		},
+		{
+			"path": "pages/equipment/components/inspectionRecordDetail"
+		},
+		{
+			"path": "pages/equipment/components/upkeepRecordList"
+		},
+		{
+			"path": "pages/equipment/components/upkeepRecordDetail"
+		},
+		{
+			"path": "pages/my/components/userAgreementPrivacyPolicy"
+		},
+		{
+			"path": "pages/my/components/update"
+		},
+		{
+			"path": "pages/my/components/changePassword"
+		},
+		{
+			"path": "pages/my/components/accountInfo"
+		},
+		{
+			"path": "pages/my/components/schedule"
+		},
+		{
+			"path": "pages/home/components/shuiliang"
+		},
+		{
+			"path": "pages/home/components/gongyi"
+		},
+		{
+			"path": "pages/home/components/dailyTask"
+		},
+		{
+			"path": "pages/home/components/publishDailyTask"
+		},
+		{
+			"path": "pages/home/components/dailyTaskReport"
+		},
+		{
+			"path": "pages/home/components/joinClass"
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom"
+		// "navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		// "navigationBarBackgroundColor": "#F8F8F8",
+		// "backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#FF575C",
+		"color": "#333",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/screen1.png",
+				"selectedIconPath": "static/images/screen.png",
+				"iconWidth": "40px",
+				"iconheight": "40px"
+			},
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home1.png"
+			},{
+				"pagePath": "pages/ai/index",
+				"iconPath": "static/images/AI3.png",
+				"selectedIconPath": "static/images/AI1.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/images/mine1.png",
+				"selectedIconPath": "static/images/mine.png"
+			}
+		]
+	}
+}

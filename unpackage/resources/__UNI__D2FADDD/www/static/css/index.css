@@ -1,0 +1,236 @@
+.content {
+	height: 100%;
+}
+
+.navBar {
+	padding-top: 12px;
+}
+
+.navBarTitle {
+	flex: 1;
+}
+
+.navBarIcon image {
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+}
+
+.navBarIconMsg image {
+	width: 28px;
+	height: 28px;
+	margin-top: 4px;
+}
+
+.navBarTitle {
+	padding-left: 10px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0;
+}
+
+.timeSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	z-index: 1001;
+	position: relative;
+}
+.timeSection.action {
+	padding: 0 10px;
+}
+.timeSection .year {
+	width: 36%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.timeSection .cost{
+	font-size: 10px;
+	color: #FF575C;
+}
+
+.timeSection .year .yearLabel {
+	margin-right: 10px;
+}
+
+.yearDataSelect {
+	background: #FF575C;
+	border-radius: 13px;
+	height: 26px;
+}
+
+/deep/ .yearDataSelect .uni-select__input-text {
+	color: #fff;
+}
+
+/deep/ .yearDataSelect .uni-icons {
+	color: #fff !important;
+	font-size: 20px!important;
+}
+
+/deep/ .yearDataSelect .uni-select {
+	border: none;
+}
+
+.swiper {}
+
+.tab_out {
+	display: flex;
+	flex-direction: row;
+	padding: 0 20px;
+	z-index: 1000;
+	border-bottom: 1px solid rgba(254, 87, 92, .1);
+}
+
+.tabs {
+	flex: 1;
+	text-align: center;
+	color: #FF575C;
+	line-height: 36px;
+	font-size: 14px;
+}
+
+.tabClick {
+	border-radius: 20rpx;
+	font-weight: bold;
+	background: rgba(254, 87, 92, .1);
+}
+
+/deep/ .uni-card .uni-card__header {
+	border: none;
+}
+
+/deep/ .uni-card__content {
+	padding: 0 !important;
+}
+
+.chartRates {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.chartRates-item {
+	width: 25%;
+	flex: 1;
+}
+
+.rateValueBox {
+	margin: -5px 0 10px;
+}
+
+.rateValue {
+	text-align: center;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.rateValue text {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.allYearCompletion {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0 10px;
+}
+
+.allYearCompletion .allYearCompletionitem {
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.allYearCompletion .allYearCompletionitem view {
+	font-size: 10px;
+	line-height: 18px;
+}
+
+.allYearCompletion .allYearCompletionitem .compare view {
+	line-height: 14px;
+}
+
+.allYearCompletion .allYearCompletionitem view.number text {
+	font-size: 15px;
+}
+
+.allYearCompletion .allYearCompletionitem.special view.number text {
+	font-size: 15px;
+}
+
+.allYearCompletion .allYearCompletionitem view.name image {
+	width: 10px;
+	height: 8px;
+	margin-left: 8px;
+	margin-right: 2px;
+}
+
+.allYearCompletion .allYearCompletionitem view.name .down {
+	transform: rotate(180deg);
+}
+
+.allYearCompletion .allYearCompletionitem view.name .rate {
+	font-size: 10px;
+}
+
+.allYearCompletion .allYearCompletionitem view.name .red {
+	color: red;
+}
+
+.allYearCompletion .allYearCompletionitem view.name .green {
+	color: green
+}
+
+/deep/ .allYearCompletion .allYearCompletionitem .uni-card {
+	margin: 8px 8px !important;
+	padding: 10px !important;
+}
+
+/deep/ .allYearCompletion .allYearCompletionitem.special .uni-card {
+	padding: 4px 10px 5px !important;
+}
+
+.allYearCompletionitem .compare {
+	display: flex;
+	flex-direction: row;
+}
+
+.allYearCompletionitem .compare .real {
+	margin-left: 10px;
+	border-left: 1px solid red;
+	padding-left: 10px;
+}
+
+.legendList {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 6px;
+	padding: 10px 0 0 5px;
+}
+
+.legendList .legendItem {
+	color: #666666;
+	text-align: left;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 8px;
+	margin: 0 -2px;
+	transform: rotate(40deg);
+}
+
+.legendList .legendItem .legendItemIcon {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	margin-right: 3px;
+}

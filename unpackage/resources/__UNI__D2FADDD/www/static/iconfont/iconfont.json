@@ -1,0 +1,72 @@
+{
+  "id": "4575210",
+  "name": "waterApp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4954932",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "5476627",
+      "name": "电脑-数据",
+      "font_class": "diannao-shuju",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "8766122",
+      "name": "任务",
+      "font_class": "renwu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "15173290",
+      "name": "设备",
+      "font_class": "shebei",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "26379155",
+      "name": "导航栏-消息-未读",
+      "font_class": "daohanglan-xiaoxi-weidu",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "26379154",
+      "name": "导航栏-消息",
+      "font_class": "daohanglan-xiaoxi",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "6282785",
+      "name": "验证码",
+      "font_class": "yanzhengma",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "7404309",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e777",
+      "unicode_decimal": 59255
+    },
+    {
+      "icon_id": "5744744",
+      "name": "account",
+      "font_class": "zhanghao",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}

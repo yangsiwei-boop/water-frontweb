@@ -1,0 +1,17 @@
+{
+  "name": "zs-app2",
+  "version": "2.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html2json": "^1.0.2",
+    "moment": "^2.30.1",
+    "vue-cookies": "^1.8.4"
+  }
+}
