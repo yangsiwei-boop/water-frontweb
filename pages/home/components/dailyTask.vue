@@ -55,7 +55,7 @@
 						<view style="display: block;text-align: center;padding-top: 40px;">
 							<image style="width: 100px;height: 66px;" src="../../../static/images/noData.png">
 							</image>
-							<view style="color: #666;">今日无任务</view>
+							<view style="color: #666;">暂无数据</view>
 						</view>
 					</view>
 				</scroll-view>
@@ -232,6 +232,7 @@
 					// depId: '1',
 					startTime: this.currentDate,
 					endTime: this.currentDate,
+					status: '10',
 					pageNo: 1,
 					pageSize: 1000,
 				};

@@ -5,7 +5,7 @@
 				<view class="header reportDetail" @click="goBack">
 					<uni-icons type="left" size="22" color="#ff575c"></uni-icons>
 					<view class="" style="color: #333;">
-						维修记录
+						已完成维修记录
 					</view>
 				</view>
 			</uni-section>
@@ -42,7 +42,7 @@
 					<view style="display: block;text-align: center;padding-top: 40px;">
 						<image style="width: 100px;height: 66px;" src="../../../static/images/noData.png">
 						</image>
-						<view style="color: #666;">无维修记录</view>
+						<view style="color: #666;">暂无数据</view>
 					</view>
 				</view>
 			</scroll-view>

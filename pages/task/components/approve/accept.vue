@@ -276,7 +276,7 @@
 						}
 					})
 				} else {
-					let encodedUrl = `http://47.106.144.138/audit/queryCraftExcel/${this.currentTaskId}`;
+					let encodedUrl = `http://47.106.144.138:8081/audit/queryCraftExcel/${this.currentTaskId}`;
 					console.log(encodedUrl, 'encodedUrl')
 					uni.downloadFile({
 						url: decodeURIComponent(encodedUrl), //后端返回的文件地址
